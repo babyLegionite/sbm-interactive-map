@@ -1,0 +1,2518 @@
+[
+  {
+    "name": "AV-10 Big Bear House",
+    "address": "",
+    "zone": "Apple Valley",
+    "street": "498 Catalina Road",
+    "city": "Big Bear Lake, California",
+    "lat": 34.243108,
+    "lng": -116.877229
+  },
+  {
+    "name": "AV-11 Allegeheny #8",
+    "address": "",
+    "zone": "Apple Valley",
+    "street": "19133 Allegheny Road",
+    "city": "Apple Valley, California",
+    "lat": 34.538031,
+    "lng": -117.246629
+  },
+  {
+    "name": "AV-12 Hacienda #27",
+    "address": "",
+    "zone": "Apple Valley",
+    "street": "17175 Sequoia Street",
+    "city": "Hesperia, California",
+    "lat": 34.468711,
+    "lng": -117.288655
+  },
+  {
+    "name": "AV-2 Allegheny Arms #16",
+    "address": "AV-2 Allegheny Arms #16 19087 Allegheny Rd Apple Valley, California",
+    "zone": "Apple Valley",
+    "street": "19087 Allegheny Rd",
+    "city": "Apple Valley, California"
+  },
+  {
+    "name": "AV-8 Stoneridge House",
+    "address": "AV-8 Stoneridge House 13405 Stoneridge Dr Victorville, California",
+    "zone": "Apple Valley",
+    "street": "13405 Stoneridge Dr",
+    "city": "Victorville, California"
+  },
+  {
+    "name": "FN-1 Cielo Vista #123",
+    "address": "",
+    "zone": "Fontana",
+    "street": "1624 W Rialto Ave",
+    "city": "Fontana, California"
+  },
+  {
+    "name": "FN-10 Cielo Vista Apt# 202",
+    "address": "",
+    "zone": "Fontana",
+    "street": "1624 W. Rialto Ave  Apt #202",
+    "city": "Rialto, California"
+  },
+  {
+    "name": "FN-12 Citrus Gardens Apt #122",
+    "address": "FN-12 Citrus Gardens Apt #122 8600 Citrus Ave Fontana, California",
+    "zone": "Fontana",
+    "street": "8600 Citrus Ave",
+    "city": "Fontana, California"
+  },
+  {
+    "name": "FN-13 Levante #3105",
+    "address": "FN-13 Levante #3105 14951 Foothill Blvd Apt #3105 Fontana, California",
+    "zone": "Fontana",
+    "street": "14951 Foothill Blvd Apt #3105",
+    "city": "Fontana, California"
+  },
+  {
+    "name": "FN-14 Citrus Gardens #133",
+    "address": "FN-14 Citrus Gardens #133 8600 Citrus Ave Fontana, California",
+    "zone": "Fontana",
+    "street": "8600 Citrus Ave",
+    "city": "Fontana, California"
+  },
+  {
+    "name": "FN-5 Ironwood #25",
+    "address": "",
+    "zone": "Fontana",
+    "street": "17010 Marygold Ave",
+    "city": "Fontana, California"
+  },
+  {
+    "name": "FN-9 Cielo Vista #213",
+    "address": "",
+    "zone": "Fontana",
+    "street": "1624 W. Rialto Ave  Apt #213",
+    "city": "Rialto, California"
+  },
+  {
+    "name": "HE-11 Oasis House",
+    "address": "",
+    "zone": "Hesperia",
+    "street": "11087 Oasis Road",
+    "city": "Pinion Hills, California"
+  },
+  {
+    "name": "HE-12 Sunset View # 148",
+    "address": "HE-12 Sunset View # 148 9919 Topaz Avenue #148 Hesperia, California",
+    "zone": "Hesperia",
+    "street": "9919 Topaz Avenue #148",
+    "city": "Hesperia, California"
+  },
+  {
+    "name": "HE-3 Desert Hacienda #16",
+    "address": "",
+    "zone": "Hesperia",
+    "street": "17175 Sequoia St",
+    "city": "Hesperia, California",
+    "lat": 34.468669,
+    "lng": -117.288658
+  },
+  {
+    "name": "HE-4 Desert Winds #17",
+    "address": "",
+    "zone": "Hesperia",
+    "street": "8890 G Ave",
+    "city": "Hesperia, California"
+  },
+  {
+    "name": "HE-7 Sunset View #14",
+    "address": "HE-7 Sunset View #14 9919 Topaz Ave Hesperia, California",
+    "zone": "Hesperia",
+    "street": "9919 Topaz Ave",
+    "city": "Hesperia, California"
+  },
+  {
+    "name": "PD-10 Smoketree #187",
+    "address": "",
+    "zone": "Palm Desert",
+    "street": "81-875 Avenue 48",
+    "city": "Indio, California"
+  },
+  {
+    "name": "PD-11  The Regents  #1704",
+    "address": "PD-11  The Regents  #1704 73373 Country Club Dr Palm Desert, California",
+    "zone": "Palm Desert",
+    "street": "73373 Country Club Dr",
+    "city": "Palm Desert, California"
+  },
+  {
+    "name": "PD-2 Mediterra #1724",
+    "address": "",
+    "zone": "Palm Desert",
+    "street": "43100 Palm Royale Dr",
+    "city": "La Quinta, California"
+  },
+  {
+    "name": "PD-3 Monte Azul #19C2",
+    "address": "",
+    "zone": "Palm Desert",
+    "street": "82165 Doctor Carreon Blvd",
+    "city": "Indio, California"
+  },
+  {
+    "name": "PD-6 Smoketree #65",
+    "address": "",
+    "zone": "Palm Desert",
+    "street": "81875 Ave 48",
+    "city": "Indio, California"
+  },
+  {
+    "name": "PD-7 Regent #205",
+    "address": "",
+    "zone": "Palm Desert",
+    "street": "73373 Country Club Dr",
+    "city": "Palm Desert, California"
+  },
+  {
+    "name": "PD-9 Fillmore House",
+    "address": "",
+    "zone": "Palm Desert",
+    "street": "1512 Fillmore Dr",
+    "city": "Thermal, California"
+  },
+  {
+    "name": "RD-14 Lawn & Tennis #508",
+    "address": "<![CDATA[RD-14 Lawn & Tennis #508 1400 Barton Rd #508 Redlands, California]]>",
+    "zone": "Redlands",
+    "street": "1400 Barton Rd #508",
+    "city": "Redlands, California"
+  },
+  {
+    "name": "RD-16 Lawn and Tennis #611",
+    "address": "RD-16 Lawn and Tennis #611 1400 Barton Road Redlands, California",
+    "zone": "Redlands",
+    "street": "1400 Barton Road",
+    "city": "Redlands, California"
+  },
+  {
+    "name": "RD-17 Lawn and Tennis #1707",
+    "address": "RD-17 Lawn and Tennis #1707 1400 Barton Road Redlands, California",
+    "zone": "Redlands",
+    "street": "1400 Barton Road",
+    "city": "Redlands, California"
+  },
+  {
+    "name": "RD-8 Aspire Redlands #310",
+    "address": "",
+    "zone": "Redlands",
+    "street": "1203 E Central Ave",
+    "city": "Redlands, California"
+  },
+  {
+    "name": "RD-9 ASPIRE- Redlands #502",
+    "address": "",
+    "zone": "Redlands",
+    "street": "1203 East Central Ave",
+    "city": "Redlands, California"
+  },
+  {
+    "name": "RI-10 Alcantara #243",
+    "address": "",
+    "zone": "Rialto",
+    "street": "1414 N Riverside Ave #243",
+    "city": "Rialto, California"
+  },
+  {
+    "name": "RI-11  Alcantara #116",
+    "address": "RI-11  Alcantara #116 1414 N Riverside Rialto, California",
+    "zone": "Rialto",
+    "street": "1414 N Riverside",
+    "city": "Rialto, California"
+  },
+  {
+    "name": "RI-12 Casa Mediterrania #95",
+    "address": "RI-12 Casa Mediterrania #95 1043 Santo Antonio Drive #95 Colton, California",
+    "zone": "Rialto",
+    "street": "1043 Santo Antonio Drive #95",
+    "city": "Colton, California"
+  },
+  {
+    "name": "RI-13 Casa Mediterrania  167",
+    "address": "RI-13 Casa Mediterrania  167 1043 Santo Antonio Dr. Colton, California",
+    "zone": "Rialto",
+    "street": "1043 Santo Antonio Dr.",
+    "city": "Colton, California"
+  },
+  {
+    "name": "RI-7 Riverside Palms #1",
+    "address": "",
+    "zone": "Rialto",
+    "street": "1062 South Riverside Ave",
+    "city": "Rialto, California"
+  },
+  {
+    "name": "SB-12 Raintree Apartments #242",
+    "address": "SB-12 Raintree Apartments #242 26660 9th Street Apt #242 Highland, California",
+    "zone": "San Bernardino",
+    "street": "26660 9th Street Apt #242",
+    "city": "Highland, California"
+  },
+  {
+    "name": "SB-15 Sunrise Apt #199",
+    "address": "SB-15 Sunrise Apt #199 1505 W. North Park Blvd. Apt #199 San Bernardino, California",
+    "zone": "San Bernardino",
+    "street": "1505 W. North Park Blvd. Apt #199",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "SB-16 Sunrise Apt  #64",
+    "address": "SB-16 Sunrise Apt  #64 1505 W. Northpark Blvd.  Apt #64 San Bernardino, California",
+    "zone": "San Bernardino",
+    "street": "1505 W. Northpark Blvd.  Apt #64",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "SB-3 Highland Meadows #113",
+    "address": "",
+    "zone": "San Bernardino",
+    "street": "6787 Cole Ave",
+    "city": "Highland, California"
+  },
+  {
+    "name": "SB-5 Monterey Villas #12",
+    "address": "",
+    "zone": "San Bernardino",
+    "street": "7000 La Praix St",
+    "city": "Highland, California"
+  },
+  {
+    "name": "SB-8 Rim Forest House",
+    "address": "SB-8 Rim Forest House 26600 Valley View Drive Rim Forest, California",
+    "zone": "San Bernardino",
+    "street": "26600 Valley View Drive",
+    "city": "Rim Forest, California"
+  },
+  {
+    "name": "VV-10 Windridge  #10",
+    "address": "",
+    "zone": "Victorville",
+    "street": "1051 Wisteria #10",
+    "city": "Barstow, California"
+  },
+  {
+    "name": "VV-2 Aspire High Desert",
+    "address": "",
+    "zone": "Victorville",
+    "street": "14450 El Evado Road",
+    "city": "Victorville, California"
+  },
+  {
+    "name": "VV-3 Hurtado House",
+    "address": "VV-3 Hurtado House 14581 Agave Way Adelanto, California",
+    "zone": "Victorville",
+    "street": "14581 Agave Way",
+    "city": "Adelanto, California"
+  },
+  {
+    "name": "VV-4 Wimbledon Apts, #10",
+    "address": "VV-4 Wimbledon Apts, #10 16950 Jasmine Street Victorville, California",
+    "zone": "Victorville",
+    "street": "16950 Jasmine Street",
+    "city": "Victorville, California"
+  },
+  {
+    "name": "VV-5 Summer Ridge #L1",
+    "address": "",
+    "zone": "Victorville",
+    "street": "15410 La Paz Drive",
+    "city": "Victorville, California"
+  },
+  {
+    "name": "VV-9 Windridge #13",
+    "address": "",
+    "zone": "Victorville",
+    "street": "1051 Wisteria Ave #13",
+    "city": "Barstow, California"
+  },
+  {
+    "name": "YP-12  Bungalow  #422",
+    "address": "YP-12  Bungalow  #422 33800 Chapman Heights Road  Apt 422 Yucaipa, California",
+    "zone": "Yucaipa",
+    "street": "33800 Chapman Heights Road  Apt 422",
+    "city": "Yucaipa, California"
+  },
+  {
+    "name": "YP-13 Bungalows #225",
+    "address": "YP-13 Bungalows #225 33800 chapman heights rd Yucaipa, California",
+    "zone": "Yucaipa",
+    "street": "33800 chapman heights rd",
+    "city": "Yucaipa, California"
+  },
+  {
+    "name": "YP-2 Beaumont Villas #206",
+    "address": "",
+    "zone": "Yucaipa",
+    "street": "683 Illinois Ave",
+    "city": "Beaumont, California"
+  },
+  {
+    "name": "YP-7 Pacheco House",
+    "address": "YP-7 Pacheco House 10208 Noble Ave Cherry Valley, California",
+    "zone": "Yucaipa",
+    "street": "10208 Noble Ave",
+    "city": "Cherry Valley, California"
+  },
+  {
+    "name": "YP-9 Beaumont Villas #210",
+    "address": "YP-9 Beaumont Villas #210 683 illinois Avenue Beaumont, California",
+    "zone": "Yucaipa",
+    "street": "683 illinois Avenue",
+    "city": "Beaumont, California"
+  },
+  {
+    "name": "YV-11 Cactus Gardens #6",
+    "address": "",
+    "zone": "Yucca Valley",
+    "street": "57545 Yucca Trail",
+    "city": "Yucca Valley, California"
+  },
+  {
+    "name": "YV-13 Desert Boutique # 70",
+    "address": "YV-13 Desert Boutique # 70 2500 East Palm Canyon Dr.   Unit 070 Palms Springs, California",
+    "zone": "Yucca Valley",
+    "street": "2500 East Palm Canyon Dr.   Unit 070",
+    "city": "Palms Springs, California"
+  },
+  {
+    "name": "YV-14 Ora Loma",
+    "address": "YV-14 Ora Loma 67605 Oro Loma ST Desert Hot Springs, California",
+    "zone": "Yucca Valley",
+    "street": "67605 Oro Loma ST",
+    "city": "Desert Hot Springs, California"
+  },
+  {
+    "name": "YV-2 Buena Vista #16",
+    "address": "",
+    "zone": "Yucca Valley",
+    "street": "56279 Buena Vista",
+    "city": "Yucca Valley, California"
+  },
+  {
+    "name": "YV-4 Desert Flower #85",
+    "address": "",
+    "zone": "Yucca Valley",
+    "street": "2500 E Palm Canyon Drive",
+    "city": "Palm Springs, California"
+  },
+  {
+    "name": "YV-8 Sunnyslope #1",
+    "address": "",
+    "zone": "Yucca Valley",
+    "street": "73590 Sunnyslope Drive Apt#1",
+    "city": "Twentynine Palms, California"
+  },
+  {
+    "name": "AV-13 Carlisle Rd #5",
+    "address": "",
+    "zone": "Apple Valley",
+    "street": "20211 Carlisle Rd #5",
+    "city": "Apple Valley, California"
+  },
+  {
+    "name": "RD-19 Venue at Orange #7107",
+    "address": "RD-19 Venue at Orange #7107 1615 Orange Ave. Apt #7107 Redlands, California",
+    "zone": "Senior Missionaries",
+    "street": "1615 Orange Ave. Apt #7107",
+    "city": "Redlands, California"
+  },
+  {
+    "name": "RD-20 Venue at Orange #7101",
+    "address": "RD-20 Venue at Orange #7101 1615 Orange Ave. Apt #7101 Redlands, California",
+    "zone": "Senior Missionaries",
+    "street": "1615 Orange Ave. Apt #7101",
+    "city": "Redlands, California"
+  },
+  {
+    "name": "RD-3 CSBM Mission Home",
+    "address": "RD-3 CSBM Mission Home 1554 Elizabeth Street Redlands, CA 92373",
+    "zone": "Mission Home",
+    "street": "1554 Elizabeth Street",
+    "city": "Redlands, CA 92373"
+  },
+  {
+    "name": "SB-14 Venue at Orange #1222",
+    "address": "SB-14 Venue at Orange #1222 1600 Orange Ave.  Apt #1222 Redlands, California",
+    "zone": "Senior Missionaries",
+    "street": "1600 Orange Ave.  Apt #1222",
+    "city": "Redlands, California"
+  },
+  {
+    "name": "YP-15 bungalows #215",
+    "address": "YP-15 bungalows #215 33800 Chapman Heights Road Yucaipa, California",
+    "zone": "Senior Missionaries",
+    "street": "33800 Chapman Heights Road",
+    "city": "Yucaipa, California"
+  },
+  {
+    "name": "YV-12  Vivian Rhee home",
+    "address": "YV-12  Vivian Rhee home 5213 Split rock Avenue 29 Palms, California",
+    "zone": "Senior Missionaries",
+    "street": "5213 Split rock Avenue",
+    "city": "29 Palms, California"
+  },
+  {
+    "name": "CVVM Mission Home",
+    "address": "CVVM Mission Home 19135 Monterey St Apple Valley, CA 92308",
+    "zone": "Mission Home",
+    "street": "19135 Monterey St",
+    "city": "Apple Valley, CA 92308"
+  },
+  {
+    "name": "RD-1 College Ave",
+    "address": "",
+    "zone": "Senior Missionaries",
+    "street": "1463 College Ave",
+    "city": "Redlands, CA 92374",
+    "lat": 34.063807,
+    "lng": -117.152476
+  },
+  {
+    "name": "AV-Big Bear",
+    "address": "",
+    "zone": "Apple Valley",
+    "street": "",
+    "city": "",
+    "lat": 34.272121,
+    "lng": -116.839744
+  },
+  {
+    "name": "AV-Tuscola",
+    "address": "Apple Valley AV-Tuscola 15500 Tuscola Rd, APPLE VALLEY, CA  92307-4583",
+    "zone": "Apple Valley",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "AV-Ridgecrest (Stk Center)",
+    "address": "Apple Valley AV-Ridgecrest (Stk Center) 12100 Ridgecrest Rd, VICTORVILLE, CA  2395-7796",
+    "zone": "Apple Valley",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "AV-Lucerne Valley",
+    "address": "Apple Valley AV-Lucerne Valley 10865 Post Office Rd, Lucerne Valley, CA 92356",
+    "zone": "Apple Valley",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "AV-Navajo",
+    "address": "",
+    "zone": "Apple Valley",
+    "street": "",
+    "city": "",
+    "lat": 34.47434,
+    "lng": -117.190909
+  },
+  {
+    "name": "HE-Hickory",
+    "address": "Hesperia HE-Hickory  9553 Hickory Ave., HESPERIA, CA  92345-3356",
+    "zone": "Hesperia",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "HE-Maple",
+    "address": "Hesperia HE-Maple  10862 Maple Ave., HESPERIA, CA  92345-2284",
+    "zone": "Hesperia",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "HE-Phelan",
+    "address": "Hesperia HE-Phelan 8889 Sheep Creek Rd., PHELAN, CA  92371-8995",
+    "zone": "Hesperia",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "HE-Wrightwood",
+    "address": "Hesperia HE-Wrightwood 888 Hwy 2, WRIGHTWOOD, CA  92397",
+    "zone": "Hesperia",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "VV-Barstow",
+    "address": "Victorville VV-Barstow 2571 Barstow Rd., BARSTOW, CA 92311-6650",
+    "zone": "Victorville",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "VV-Jeraldo",
+    "address": "",
+    "zone": "Victorville",
+    "street": "",
+    "city": "",
+    "lat": 34.52916,
+    "lng": -117.335304
+  },
+  {
+    "name": "VV-Fort Irwin Branch",
+    "address": "Victorville VV-Fort Irwin Branch 320 Barstow Rd, Fort Irwin, CA 92310",
+    "zone": "Victorville",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "VV-George Branch (Correctional Facility)",
+    "address": "Victorville VV-George Branch (Correctional Facility) 13777 Air Expressway Blvd., VICTORVILLE, CA 92394",
+    "zone": "Victorville",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "VV-Amethyst (Stk Center)",
+    "address": "Victorville VV-Amethyst (Stk Center) 12860 Amethyst Rd. VICTORVILLE, CA  92392",
+    "zone": "Victorville",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "VV-Newberry Springs",
+    "address": "Victorville VV-Newberry Springs 34380 Newberry Rd., NEWBERRY SPRINGS CA 92365",
+    "zone": "Victorville",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "FN-Alder (Stk Center)",
+    "address": "Fontana FN-Alder (Stk Center) 7526 Alder Ave., FONTANA, CA  92336-2304",
+    "zone": "Fontana",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "FN-Juniper",
+    "address": "Fontana FN-Juniper 10654 Juniper Ave, FONTANA, CA 92337-7515",
+    "zone": "Fontana",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "FN-Randall",
+    "address": "Fontana FN-Randall 17535 Randall Ave., FONTANA, CA  92336-2304",
+    "zone": "Fontana",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "RI-Colton",
+    "address": "Rialto RI-Colton 250 East Laurel St., COLTON, CA  92324",
+    "zone": "Rialto",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "RI-Willow (Stk Center)",
+    "address": "Rialto RI-Willow (Stk Center) 1375 N Willow Ave, RIALTO, CA  92376",
+    "zone": "Rialto",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "RI-Randall",
+    "address": "Rialto RI-Randall 1420 W Randall Ave, RIALTO, CA  92316",
+    "zone": "Rialto",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "RD-Center",
+    "address": "Redlands RD-Center 640 S Center St, REDLANDS, CA  92373",
+    "zone": "Redlands",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "RD-Wabash (Stk Center)",
+    "address": "Redlands RD-Wabash (Stk Center) 350 S Wabash Ave, REDLANDS, CA  92374",
+    "zone": "Redlands",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "RD-Pioneer",
+    "address": "Redlands RD-Pioneer 1021 E Pioneer Ave, REDLANDS, CA  92374",
+    "zone": "Redlands",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "SB-Northpark (Stk Center)",
+    "address": "San Bernardino SB-Northpark (Stk Center) 1475 Northpark Blvd, San Bernardino, CA 92407",
+    "zone": "San Bernardino",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "SB-Waterman",
+    "address": "San Bernardino SB-Waterman 3860 N Waterman Ave, San Bernardino, CA 92404",
+    "zone": "San Bernardino",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "SB-Crestline",
+    "address": "San Bernardino SB-Crestline 294 Fernwood Dr., CRESTLINE, CA  92320",
+    "zone": "San Bernardino",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "SB-Golden Rule",
+    "address": "San Bernardino SB-Golden Rule 1160 Golden Rule Ln, LAKE ARROWHEAD, CA 92320",
+    "zone": "San Bernardino",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "SB-Highland (Mission Office)",
+    "address": "San Bernardino SB-Highland (Mission Office) 7000 Central Ave, Highland, CA  92346-3013",
+    "zone": "San Bernardino",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "PD-Washington St",
+    "address": "Palm Desert PD-Washington St 40840 Washington St, Bermuda Dunes, CA 92203",
+    "zone": "Palm Desert",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "PD-Borrego Springs",
+    "address": "Palm Desert PD-Borrego Springs  597 Cahuilla Rd, Borrego Springs, CA 92004",
+    "zone": "Palm Desert",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "PD-Indio",
+    "address": "Palm Desert PD-Indio 81870 48th Ave. INDIO, CALIFORNIA 92201",
+    "zone": "Palm Desert",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "PD-Park View (Stk Center)",
+    "address": "Palm Desert PD-Park View (Stk Center) 72-960 Park View Dr, Palm Desert, CA  92260-9357",
+    "zone": "Palm Desert",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "PD-Salton Sea",
+    "address": "Palm Desert PD-Salton Sea 1375 Borrego Salton Seaway F-22, Salton City, CA",
+    "zone": "Palm Desert",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "YC-Banning",
+    "address": "Yucaipa YC-Banning 6140 W Wilson St, BANNING, CA  92220",
+    "zone": "Yucaipa",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "YC-6th Street (Stk Center)",
+    "address": "Yucaipa YC-6th Street (Stk Center) 12776 6th Street, YUCAIPA, CA  92399",
+    "zone": "Yucaipa",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "YC-Calimesa",
+    "address": "Yucaipa YC-Calimesa 306 E Avenue L, CALIMESA, CA 92320",
+    "zone": "Yucaipa",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "YV-Palm Springs",
+    "address": "",
+    "zone": "Yucca Valley",
+    "street": "",
+    "city": "",
+    "lat": 33.841478,
+    "lng": -116.536674
+  },
+  {
+    "name": "YV-Desert Hot Springs",
+    "address": "Yucca Valley YV-Desert Hot Springs  12100 Verbena Dr, DESERT HOT SPRINGS, CA  92240",
+    "zone": "Yucca Valley",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "YV-Onaga Trail",
+    "address": "Yucca Valley YV-Onaga Trail 56885 Onaga Trail, YUCCA VALLEY, CA  92284",
+    "zone": "Yucca Valley",
+    "street": "",
+    "city": ""
+  },
+  {
+    "name": "YV-Twentynine Palms",
+    "address": "",
+    "zone": "Yucca Valley",
+    "street": "",
+    "city": "",
+    "lat": 34.142801,
+    "lng": -116.069757
+  },
+  {
+    "name": "Western Home Builders/Smoke Tree Villa #1",
+    "address": "YV Western Home Builders/Smoke Tree Villa #1 Smoke Tree Villa  73456 Desert Trail Dr #1  29 Palms, California",
+    "zone": "YV",
+    "street": "",
+    "city": "29 Palms, California"
+  },
+  {
+    "name": "Sunnyslope #2",
+    "address": "",
+    "zone": "YV",
+    "street": "",
+    "city": "29 Palms, California"
+  },
+  {
+    "name": "Casaba House",
+    "address": "",
+    "zone": "VV",
+    "street": "",
+    "city": "Adelanto, California"
+  },
+  {
+    "name": "Vollmer Apartment",
+    "address": "",
+    "zone": "VV",
+    "street": "",
+    "city": "Adelanto, California"
+  },
+  {
+    "name": "AV-6 Siskiyou Road",
+    "address": "AV AV-6 Siskiyou Road  17981 Siskiyou Road Apple Valley , California",
+    "zone": "AV",
+    "street": "",
+    "city": "Apple Valley , California"
+  },
+  {
+    "name": "Siskiyou Apt. #6",
+    "address": "",
+    "zone": "AV",
+    "street": "",
+    "city": "Apple Valley, California"
+  },
+  {
+    "name": "AV-6 Siskiyou #6",
+    "address": "",
+    "zone": "AV",
+    "street": "",
+    "city": "Apple Valley, California"
+  },
+  {
+    "name": "AV-11 Allegheny #7",
+    "address": "",
+    "zone": "AV",
+    "street": "",
+    "city": "Apple Valley, California"
+  },
+  {
+    "name": "Tucker House (Sholic)",
+    "address": "",
+    "zone": "AV",
+    "street": "",
+    "city": "Apple Valley, California"
+  },
+  {
+    "name": "Fuller House",
+    "address": "",
+    "zone": "AV",
+    "street": "",
+    "city": "Apple Valley, California"
+  },
+  {
+    "name": "Noh Home",
+    "address": "",
+    "zone": "AV",
+    "street": "",
+    "city": "Apple Valley, California"
+  },
+  {
+    "name": "Roseberry Home",
+    "address": "",
+    "zone": "AV",
+    "street": "",
+    "city": "Apple Valley, California"
+  },
+  {
+    "name": "Lyon House",
+    "address": "",
+    "zone": "AV",
+    "street": "",
+    "city": "Apple Valley, California"
+  },
+  {
+    "name": "Allegheny Apartment",
+    "address": "",
+    "zone": "AV",
+    "street": "",
+    "city": "Apple Valley, California"
+  },
+  {
+    "name": "Zuni House",
+    "address": "",
+    "zone": "AV",
+    "street": "",
+    "city": "Apple Valley, California"
+  },
+  {
+    "name": "Quantico Ln.",
+    "address": "",
+    "zone": "AV",
+    "street": "",
+    "city": "Apple Valley, California"
+  },
+  {
+    "name": "Olalee Place Apartment #4",
+    "address": "",
+    "zone": "AV",
+    "street": "",
+    "city": "Apple Valley, California"
+  },
+  {
+    "name": "Klamath Rd Apartment #3",
+    "address": "",
+    "zone": "AV",
+    "street": "",
+    "city": "Apple Valley, California"
+  },
+  {
+    "name": "Smithson House",
+    "address": "",
+    "zone": "AV",
+    "street": "",
+    "city": "Apple Valley, California"
+  },
+  {
+    "name": "Mendez House",
+    "address": "",
+    "zone": "AV",
+    "street": "",
+    "city": "Apple Valley, California"
+  },
+  {
+    "name": "Olalee B",
+    "address": "AV Olalee B 1414 Nowhere Boulevard Apple Valley, California",
+    "zone": "AV",
+    "street": "",
+    "city": "Apple Valley, California"
+  },
+  {
+    "name": "AV-5 Navajo Rd #2",
+    "address": "",
+    "zone": "AV",
+    "street": "",
+    "city": "Apple Valley, California"
+  },
+  {
+    "name": "AV-4 Klamath #3",
+    "address": "",
+    "zone": "AV",
+    "street": "",
+    "city": "Apple Valley, California"
+  },
+  {
+    "name": "AV-3 Jelan House",
+    "address": "AV AV-3 Jelan House 21858 Jelan Ave Apple Valley, California",
+    "zone": "AV",
+    "street": "",
+    "city": "Apple Valley, California"
+  },
+  {
+    "name": "AV-12  Cesar Valenz-La Casita",
+    "address": "AV AV-12  Cesar Valenz-La Casita 25920 Del Sol Rd Apple Valley, California",
+    "zone": "AV",
+    "street": "",
+    "city": "Apple Valley, California"
+  },
+  {
+    "name": "Long House",
+    "address": "",
+    "zone": "AV",
+    "street": "",
+    "city": "Apple Valley, California"
+  },
+  {
+    "name": "Windscape Village. #214",
+    "address": "",
+    "zone": "YP",
+    "street": "",
+    "city": "Banning, California"
+  },
+  {
+    "name": "Windscape Village #104",
+    "address": "",
+    "zone": "YP",
+    "street": "",
+    "city": "Banning, California"
+  },
+  {
+    "name": "Banning Wilson Garden  #233",
+    "address": "",
+    "zone": "YP",
+    "street": "",
+    "city": "Banning, California"
+  },
+  {
+    "name": "Banning Wilson Gardens #240",
+    "address": "",
+    "zone": "YP",
+    "street": "",
+    "city": "Banning, California"
+  },
+  {
+    "name": "YP-1 Wilson Gardens #232",
+    "address": "",
+    "zone": "YP",
+    "street": "",
+    "city": "Banning, California"
+  },
+  {
+    "name": "Scenic View Apt.",
+    "address": "",
+    "zone": "VV",
+    "street": "",
+    "city": "Barstow, California"
+  },
+  {
+    "name": "Scenic View",
+    "address": "",
+    "zone": "VV",
+    "street": "",
+    "city": "Barstow, California"
+  },
+  {
+    "name": "Schetromph",
+    "address": "",
+    "zone": "VV",
+    "street": "",
+    "city": "Barstow, California"
+  },
+  {
+    "name": "Deseret Apartment",
+    "address": "",
+    "zone": "VV",
+    "street": "",
+    "city": "Barstow, California"
+  },
+  {
+    "name": "Sunrise Vista Apartments #50",
+    "address": "",
+    "zone": "VV",
+    "street": "",
+    "city": "Barstow, California"
+  },
+  {
+    "name": "Barcelona House",
+    "address": "VV Barcelona House 2001 Barcelona Circle Barstow, California",
+    "zone": "VV",
+    "street": "",
+    "city": "Barstow, California"
+  },
+  {
+    "name": "Jackson Property Mgt/Wellwood #4",
+    "address": "YP Jackson Property Mgt/Wellwood #4 864 Wellwood Ave Beaumont, California",
+    "zone": "YP",
+    "street": "",
+    "city": "Beaumont, California"
+  },
+  {
+    "name": "Saddleback Apt Homes  #311",
+    "address": "",
+    "zone": "PD",
+    "street": "",
+    "city": "Bermuda Dunes, California"
+  },
+  {
+    "name": "Lindstrom House",
+    "address": "",
+    "zone": "AV",
+    "street": "",
+    "city": "Big Bear Lake, California"
+  },
+  {
+    "name": "Finster Home",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "Blue Jay, California"
+  },
+  {
+    "name": "Auten Condo",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "Blue Jay, California"
+  },
+  {
+    "name": "CLOSED Acacia Avenue Apartment",
+    "address": "",
+    "zone": "YP",
+    "street": "",
+    "city": "Calimesa, California"
+  },
+  {
+    "name": "YP-6 Mesa Grande #128",
+    "address": "YP YP-6 Mesa Grande #128 35128 Mesa Grande Calimesa, California",
+    "zone": "YP",
+    "street": "",
+    "city": "Calimesa, California"
+  },
+  {
+    "name": "YP-10 Trilogy",
+    "address": "",
+    "zone": "YP",
+    "street": "",
+    "city": "Calimesa, California"
+  },
+  {
+    "name": "Octillo Place Apts  #105",
+    "address": "",
+    "zone": "YV",
+    "street": "",
+    "city": "Cathedral City, California"
+  },
+  {
+    "name": "Ocotillo Place Apartments #62",
+    "address": "",
+    "zone": "YV",
+    "street": "",
+    "city": "Cathedral City, California"
+  },
+  {
+    "name": "Ocotillo Place Apartments #20",
+    "address": "YV Ocotillo Place Apartments #20 Ocotillo Plc 69-155 Dinah Shore Dr #20 Cathedral City, California",
+    "zone": "YV",
+    "street": "",
+    "city": "Cathedral City, California"
+  },
+  {
+    "name": "Ocotillo Place Apartments #61",
+    "address": "YV Ocotillo Place Apartments #61 Ocotilla Plc 69-115 DinahShore Dr Cathedral City, California",
+    "zone": "YV",
+    "street": "",
+    "city": "Cathedral City, California"
+  },
+  {
+    "name": "Octillo Place Apartments #61",
+    "address": "YV Octillo Place Apartments #61 Ocotillo Plc 69-155 Dinah Shore Drive #61 Cathedral City, California",
+    "zone": "YV",
+    "street": "",
+    "city": "Cathedral City, California"
+  },
+  {
+    "name": "Windcrest",
+    "address": "",
+    "zone": "RI",
+    "street": "",
+    "city": "Colton, California"
+  },
+  {
+    "name": "Centrepointe #169",
+    "address": "",
+    "zone": "RI",
+    "street": "",
+    "city": "Colton, California"
+  },
+  {
+    "name": "Windcrest Apartments",
+    "address": "RI Windcrest Apartments 933 Fairway Drive #106 Colton, California",
+    "zone": "RI",
+    "street": "",
+    "city": "Colton, California"
+  },
+  {
+    "name": "RI-8 Windcrest #106",
+    "address": "",
+    "zone": "RI",
+    "street": "",
+    "city": "Colton, California"
+  },
+  {
+    "name": "Terrace Oak Apts. #A-2",
+    "address": "",
+    "zone": "RI",
+    "street": "",
+    "city": "Colton, California"
+  },
+  {
+    "name": "Somers House",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "Crestline, California"
+  },
+  {
+    "name": "Collis Home",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "Crestline, California"
+  },
+  {
+    "name": "SB-9 Crestline House",
+    "address": "SB SB-9 Crestline House 23884 Pioneer Camp Road Crestline, California",
+    "zone": "SB",
+    "street": "",
+    "city": "Crestline, California"
+  },
+  {
+    "name": "Newberry Springs Apt",
+    "address": "",
+    "zone": "VV",
+    "street": "",
+    "city": "Daggett , California"
+  },
+  {
+    "name": "YV-5 Mission Lakes #1",
+    "address": "",
+    "zone": "YV",
+    "street": "",
+    "city": "Desert Hot Springs, California"
+  },
+  {
+    "name": "YV-7 Smith House",
+    "address": "YV YV-7 Smith House 70235 Aurora Rd Desert Hot Springs, California",
+    "zone": "YV",
+    "street": "",
+    "city": "Desert Hot Springs, California"
+  },
+  {
+    "name": "YV-9 Miracle Hill # A",
+    "address": "",
+    "zone": "YV",
+    "street": "",
+    "city": "Desert Hot Springs, California"
+  },
+  {
+    "name": "YV-10 Eliseo #1",
+    "address": "",
+    "zone": "YV",
+    "street": "",
+    "city": "Desert Hot Springs, California"
+  },
+  {
+    "name": "Foothill Cape",
+    "address": "",
+    "zone": "FN",
+    "street": "",
+    "city": "Fontana, California"
+  },
+  {
+    "name": "Cottonwood Apt. #202",
+    "address": "",
+    "zone": "FN",
+    "street": "",
+    "city": "Fontana, California"
+  },
+  {
+    "name": "Juniper Village",
+    "address": "",
+    "zone": "FN",
+    "street": "",
+    "city": "Fontana, California"
+  },
+  {
+    "name": "CLOSED Mango Tree #1",
+    "address": "",
+    "zone": "FN",
+    "street": "",
+    "city": "Fontana, California"
+  },
+  {
+    "name": "Cottonwood PALMS",
+    "address": "",
+    "zone": "FN",
+    "street": "",
+    "city": "Fontana, California"
+  },
+  {
+    "name": "Village Drive Apts #604",
+    "address": "",
+    "zone": "FN",
+    "street": "",
+    "city": "Fontana, California"
+  },
+  {
+    "name": "Moews Home",
+    "address": "",
+    "zone": "FN",
+    "street": "",
+    "city": "Fontana, California"
+  },
+  {
+    "name": "Browning House",
+    "address": "",
+    "zone": "FN",
+    "street": "",
+    "city": "Fontana, California"
+  },
+  {
+    "name": "Cottonwood Chestnut #207B",
+    "address": "",
+    "zone": "FN",
+    "street": "",
+    "city": "Fontana, California"
+  },
+  {
+    "name": "Las Brisas #122",
+    "address": "",
+    "zone": "FN",
+    "street": "",
+    "city": "Fontana, California"
+  },
+  {
+    "name": "Cielo Vista #131",
+    "address": "",
+    "zone": "FN",
+    "street": "",
+    "city": "Fontana, California"
+  },
+  {
+    "name": "Maple Hill #247",
+    "address": "",
+    "zone": "FN",
+    "street": "",
+    "city": "Fontana, California"
+  },
+  {
+    "name": "Village Drive Apts #1218",
+    "address": "",
+    "zone": "FN",
+    "street": "",
+    "city": "Fontana, California"
+  },
+  {
+    "name": "FN-7 Village Drive #1607",
+    "address": "",
+    "zone": "FN",
+    "street": "",
+    "city": "Fontana, California"
+  },
+  {
+    "name": "Village Drive Apts #504",
+    "address": "",
+    "zone": "FN",
+    "street": "",
+    "city": "Fontana, California"
+  },
+  {
+    "name": "Village Drive Apts #1213",
+    "address": "",
+    "zone": "FN",
+    "street": "",
+    "city": "Fontana, California"
+  },
+  {
+    "name": "Cielo Vista #110",
+    "address": "",
+    "zone": "FN",
+    "street": "",
+    "city": "Fontana, California"
+  },
+  {
+    "name": "FN-4 Maple Hill #87",
+    "address": "",
+    "zone": "FN",
+    "street": "",
+    "city": "Fontana, California"
+  },
+  {
+    "name": "Mango Tree # 47-F (duplicate)",
+    "address": "FN Mango Tree # 47-F (duplicate) 8021 Mango Ave, Apt 47-F Fontana, California",
+    "zone": "FN",
+    "street": "",
+    "city": "Fontana, California"
+  },
+  {
+    "name": "FN-2 Citrus Gardens #205",
+    "address": "",
+    "zone": "FN",
+    "street": "",
+    "city": "Fontana, California"
+  },
+  {
+    "name": "RI-4 Maple Hill #233",
+    "address": "",
+    "zone": "FN",
+    "street": "",
+    "city": "Fontana, California"
+  },
+  {
+    "name": "FN-8 Vasara at Ventana #1110",
+    "address": "",
+    "zone": "FN",
+    "street": "",
+    "city": "Fontana, California",
+    "lat": 34.167376,
+    "lng": -117.454588
+  },
+  {
+    "name": "Mango Tree",
+    "address": "FN Mango Tree 8021 Mango Ave #1A Fontant, California",
+    "zone": "FN",
+    "street": "",
+    "city": "Fontant, California"
+  },
+  {
+    "name": "FN - 11 Maple Hills 233",
+    "address": "FN FN - 11 Maple Hills 233 1815 Foothill Blvd Fontant, California",
+    "zone": "FN",
+    "street": "",
+    "city": "Fontant, California"
+  },
+  {
+    "name": "Highlands 2012",
+    "address": "RI Highlands 2012 11750 Mt Vernon Avenue Grand Terrace, California",
+    "zone": "RI",
+    "street": "",
+    "city": "Grand Terrace, California"
+  },
+  {
+    "name": "Highlands #2012",
+    "address": "",
+    "zone": "RI",
+    "street": "",
+    "city": "Grand Terrace, California"
+  },
+  {
+    "name": "RI-3 The Heights #179",
+    "address": "",
+    "zone": "RI",
+    "street": "",
+    "city": "Grand Terrace, California"
+  },
+  {
+    "name": "Desert Oasis",
+    "address": "",
+    "zone": "HE",
+    "street": "",
+    "city": "Hesperia, California"
+  },
+  {
+    "name": "Wolfgramm House",
+    "address": "",
+    "zone": "HE",
+    "street": "",
+    "city": "Hesperia, California"
+  },
+  {
+    "name": "Whitcombe Home",
+    "address": "",
+    "zone": "HE",
+    "street": "",
+    "city": "Hesperia, California"
+  },
+  {
+    "name": "Desert View Apartments",
+    "address": "",
+    "zone": "HE",
+    "street": "",
+    "city": "Hesperia, California"
+  },
+  {
+    "name": "Findlay House",
+    "address": "",
+    "zone": "HE",
+    "street": "",
+    "city": "Hesperia, California"
+  },
+  {
+    "name": "Crossings Apt.",
+    "address": "",
+    "zone": "HE",
+    "street": "",
+    "city": "Hesperia, California"
+  },
+  {
+    "name": "Yen House",
+    "address": "",
+    "zone": "HE",
+    "street": "",
+    "city": "Hesperia, California"
+  },
+  {
+    "name": "Sunset Point # 29",
+    "address": "",
+    "zone": "HE",
+    "street": "",
+    "city": "Hesperia, California"
+  },
+  {
+    "name": "Sunset View #80",
+    "address": "",
+    "zone": "HE",
+    "street": "",
+    "city": "Hesperia, California"
+  },
+  {
+    "name": "Desert Island Apartments #12",
+    "address": "",
+    "zone": "HE",
+    "street": "",
+    "city": "Hesperia, California"
+  },
+  {
+    "name": "Maple #8",
+    "address": "",
+    "zone": "HE",
+    "street": "",
+    "city": "Hesperia, California"
+  },
+  {
+    "name": "HE-2 Desert Dunes #13",
+    "address": "HE HE-2 Desert Dunes #13 16344 Sultana St Hesperia, California",
+    "zone": "HE",
+    "street": "",
+    "city": "Hesperia, California"
+  },
+  {
+    "name": "VV-7 Sequoia Villas #21",
+    "address": "",
+    "zone": "HE",
+    "street": "",
+    "city": "Hesperia, California"
+  },
+  {
+    "name": "HE-6 Sunset Pointe #20",
+    "address": "",
+    "zone": "HE",
+    "street": "",
+    "city": "Hesperia, California"
+  },
+  {
+    "name": "HE-8 Sunset View #93",
+    "address": "",
+    "zone": "HE",
+    "street": "",
+    "city": "Hesperia, California"
+  },
+  {
+    "name": "HE-10 Yen House",
+    "address": "HE HE-10 Yen House 18887 Yucca Street Hesperia, California",
+    "zone": "HE",
+    "street": "",
+    "city": "Hesperia, California"
+  },
+  {
+    "name": "Desert Oasis",
+    "address": "HE Desert Oasis 14964 Sequoia Ave  Apt. 4 Hesperia, California",
+    "zone": "HE",
+    "street": "",
+    "city": "Hesperia, California"
+  },
+  {
+    "name": "Sunset View # 148",
+    "address": "HE Sunset View # 148 9919 Topaz Avenue # 148 Hesperia, California",
+    "zone": "HE",
+    "street": "",
+    "city": "Hesperia, California"
+  },
+  {
+    "name": "Preston Ellis Apts  #321",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "Highland, California"
+  },
+  {
+    "name": "Monterey Villas #8",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "Highland, California"
+  },
+  {
+    "name": "Royal Palms #139",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "Highland, California"
+  },
+  {
+    "name": "Montery Villas Apartments #8",
+    "address": "SB Montery Villas Apartments #8 7000 La Praix Street #8 Highland, California",
+    "zone": "SB",
+    "street": "",
+    "city": "Highland, California"
+  },
+  {
+    "name": "Mtn Shadows Mobile Home #35",
+    "address": "SB Mtn Shadows Mobile Home #35 4040 East Piedmont Drive #35 Highland, California",
+    "zone": "SB",
+    "street": "",
+    "city": "Highland, California"
+  },
+  {
+    "name": "SB-7 Raintree #223",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "Highland, California"
+  },
+  {
+    "name": "PD-5 Smoketree #24",
+    "address": "",
+    "zone": "PD",
+    "street": "",
+    "city": "Indio, California"
+  },
+  {
+    "name": "PD-10 Smoke Tree #187",
+    "address": "PD PD-10 Smoke Tree #187 81875 Avenue 48, Apt. 187 Indio, California",
+    "zone": "PD",
+    "street": "",
+    "city": "Indio, California"
+  },
+  {
+    "name": "Palm Desert - 43-100 Palm Royale Dr  #326",
+    "address": "PD Palm Desert - 43-100 Palm Royale Dr  #326 43-100 Palm Royale Dr  #326 La Quinta, California",
+    "zone": "PD",
+    "street": "",
+    "city": "La Quinta, California"
+  },
+  {
+    "name": "Palm Desert - 43-100 Palm Royale Dr #1716",
+    "address": "PD Palm Desert - 43-100 Palm Royale Dr #1716 43-100 Palm Royale Dr #1716 La Quinta, California",
+    "zone": "PD",
+    "street": "",
+    "city": "La Quinta, California"
+  },
+  {
+    "name": "PD-1 Mediterra #1114",
+    "address": "",
+    "zone": "PD",
+    "street": "",
+    "city": "La Quinta, California"
+  },
+  {
+    "name": "Mediterra Apartments  # 1716",
+    "address": "",
+    "zone": "PD",
+    "street": "",
+    "city": "LaQuinta, California"
+  },
+  {
+    "name": "AV-9 Franklin House",
+    "address": "AV AV-9 Franklin House 31438 Carson Street Lucerne Valley, California",
+    "zone": "AV",
+    "street": "",
+    "city": "Lucerne Valley, California"
+  },
+  {
+    "name": "Shoemake Home",
+    "address": "",
+    "zone": "VV",
+    "street": "",
+    "city": "Newberry Springs, California"
+  },
+  {
+    "name": "Newberry Springs Home",
+    "address": "VV Newberry Springs Home 41325 National Trails Highway Newberry Springs, California",
+    "zone": "VV",
+    "street": "",
+    "city": "Newberry Springs, California"
+  },
+  {
+    "name": "Canterra Apts",
+    "address": "PD Canterra Apts 74-401 HKovley Lane East Palm Desert , California",
+    "zone": "PD",
+    "street": "",
+    "city": "Palm Desert , California"
+  },
+  {
+    "name": "PD-8 Regent #2007",
+    "address": "",
+    "zone": "PD",
+    "street": "",
+    "city": "Palm Desert, California"
+  },
+  {
+    "name": "Desert Flower Apartment Homes  #7",
+    "address": "",
+    "zone": "PD",
+    "street": "",
+    "city": "Palm Springs, California"
+  },
+  {
+    "name": "YV-3 Desert Flower #63",
+    "address": "",
+    "zone": "PD",
+    "street": "",
+    "city": "Palm Springs, California"
+  },
+  {
+    "name": "Price Home",
+    "address": "",
+    "zone": "HE",
+    "street": "",
+    "city": "Phelan, California"
+  },
+  {
+    "name": "Price House",
+    "address": "HE Price House 13053 Rose Vista Rd Phelan, California",
+    "zone": "HE",
+    "street": "",
+    "city": "Phelan, California"
+  },
+  {
+    "name": "Oasis House",
+    "address": "",
+    "zone": "HE",
+    "street": "",
+    "city": "Pinon Hills, California"
+  },
+  {
+    "name": "Redlands Lawn and Tennis #2705",
+    "address": "<![CDATA[RD Redlands Lawn and Tennis #2705 Redlands Lawn & Tennis 1400 Barton R. # 2705 Redlands , California]]>",
+    "zone": "RD",
+    "street": "",
+    "city": "Redlands , California"
+  },
+  {
+    "name": "Redlands Lawn and Tennis  #305",
+    "address": "",
+    "zone": "RD",
+    "street": "",
+    "city": "Redlands, California"
+  },
+  {
+    "name": "Pebble Brook Apts  #3E",
+    "address": "",
+    "zone": "RD",
+    "street": "",
+    "city": "Redlands, California"
+  },
+  {
+    "name": "Redlands Lawn and Tennis #1613",
+    "address": "",
+    "zone": "RD",
+    "street": "",
+    "city": "Redlands, California"
+  },
+  {
+    "name": "Oxford Drive",
+    "address": "",
+    "zone": "RD",
+    "street": "",
+    "city": "Redlands, California"
+  },
+  {
+    "name": "Redlands Lawn and Tennis Apt 2003",
+    "address": "RD Redlands Lawn and Tennis Apt 2003 1400 Barton Rd  Apt 2003 Redlands, California",
+    "zone": "RD",
+    "street": "",
+    "city": "Redlands, California"
+  },
+  {
+    "name": "RD-6 Lawn & Tennis #2307",
+    "address": "",
+    "zone": "RD",
+    "street": "",
+    "city": "Redlands, California"
+  },
+  {
+    "name": "RD-5 Lawn & Tennis #2404",
+    "address": "",
+    "zone": "RD",
+    "street": "",
+    "city": "Redlands, California"
+  },
+  {
+    "name": "RD-10 Tesoro #1606",
+    "address": "",
+    "zone": "RD",
+    "street": "",
+    "city": "Redlands, California"
+  },
+  {
+    "name": "Parkview Terrace Apts #2716",
+    "address": "RD Parkview Terrace Apts #2716 Parkview Terrace 1601 Barton Road #2716 Redlands, California",
+    "zone": "RD",
+    "street": "",
+    "city": "Redlands, California"
+  },
+  {
+    "name": "Redlands Lawn and Tennis #709",
+    "address": "RD Redlands Lawn and Tennis #709 1400 Barton Road #709 Redlands, California",
+    "zone": "RD",
+    "street": "",
+    "city": "Redlands, California"
+  },
+  {
+    "name": "RD-4 Herald St Apt",
+    "address": "RD RD-4 Herald St Apt 848 Herald Street Redlands, California",
+    "zone": "RD",
+    "street": "",
+    "city": "Redlands, California"
+  },
+  {
+    "name": "Redlands L & T #709",
+    "address": "<![CDATA[RD Redlands L & T #709 1400 Barton Road #709 Redlands, California]]>",
+    "zone": "RD",
+    "street": "",
+    "city": "Redlands, California"
+  },
+  {
+    "name": "RD-7 Staci Court #501",
+    "address": "",
+    "zone": "RD",
+    "street": "",
+    "city": "Redlands, California"
+  },
+  {
+    "name": "RD-? Staci Court #501",
+    "address": "",
+    "zone": "RD",
+    "street": "",
+    "city": "Redlands, California"
+  },
+  {
+    "name": "RD-2 Del Flora #660B",
+    "address": "",
+    "zone": "RD",
+    "street": "",
+    "city": "Redlands, California"
+  },
+  {
+    "name": "RD-11 Lawn & Tennis #410",
+    "address": "",
+    "zone": "RD",
+    "street": "",
+    "city": "Redlands, California"
+  },
+  {
+    "name": "RD-12 Lawn & Tennis #2112",
+    "address": "<![CDATA[RD RD-12 Lawn & Tennis #2112 1400 Barton Rd Redlands, California]]>",
+    "zone": "RD",
+    "street": "",
+    "city": "Redlands, California"
+  },
+  {
+    "name": "RD-13 Lawn & Tennis #602",
+    "address": "<![CDATA[RD RD-13 Lawn & Tennis #602 1400 Barton Rd Redlands, California]]>",
+    "zone": "RD",
+    "street": "",
+    "city": "Redlands, California"
+  },
+  {
+    "name": "RD-15  Lawn and Tennis #2602",
+    "address": "RD RD-15  Lawn and Tennis #2602 1400 Barton Lane Apt# 2602 Redlands, California",
+    "zone": "RD",
+    "street": "",
+    "city": "Redlands, California"
+  },
+  {
+    "name": "RD-16 apt#611",
+    "address": "RD RD-16 apt#611 1400 Barton Road Redlands, California",
+    "zone": "RD",
+    "street": "",
+    "city": "Redlands, California"
+  },
+  {
+    "name": "QUAIL POINTE 1015",
+    "address": "",
+    "zone": "RI",
+    "street": "",
+    "city": "Rialto, California"
+  },
+  {
+    "name": "QUAIL POINTE 1011",
+    "address": "",
+    "zone": "RI",
+    "street": "",
+    "city": "Rialto, California"
+  },
+  {
+    "name": "Riverside Apartments",
+    "address": "",
+    "zone": "RI",
+    "street": "",
+    "city": "Rialto, California"
+  },
+  {
+    "name": "RI-9 Harvest Glen #10N",
+    "address": "",
+    "zone": "RI",
+    "street": "",
+    "city": "Rialto, California"
+  },
+  {
+    "name": "Village Green Apts #2",
+    "address": "",
+    "zone": "RI",
+    "street": "",
+    "city": "Rialto, California"
+  },
+  {
+    "name": "RI-1 Alcantara #132",
+    "address": "",
+    "zone": "RI",
+    "street": "",
+    "city": "Rialto, California"
+  },
+  {
+    "name": "RI-2 Cactus Grove #C21",
+    "address": "",
+    "zone": "RI",
+    "street": "",
+    "city": "Rialto, California"
+  },
+  {
+    "name": "Alcantara #222",
+    "address": "",
+    "zone": "RI",
+    "street": "",
+    "city": "Rialto, California"
+  },
+  {
+    "name": "RI-6 Quailpointe #1112",
+    "address": "",
+    "zone": "RI",
+    "street": "",
+    "city": "Rialto, California"
+  },
+  {
+    "name": "Orchard Heights 09-E",
+    "address": "RI Orchard Heights 09-E 200 S Linden Ave Rialto, California",
+    "zone": "RI",
+    "street": "",
+    "city": "Rialto, California"
+  },
+  {
+    "name": "Harvest Glen  Apt. #9E",
+    "address": "",
+    "zone": "RI",
+    "street": "",
+    "city": "Rialto, California"
+  },
+  {
+    "name": "Riverside Palms Apt #37",
+    "address": "",
+    "zone": "RI",
+    "street": "",
+    "city": "Rialto, California"
+  },
+  {
+    "name": "FN-3 Harvest Glen #13R",
+    "address": "",
+    "zone": "RI",
+    "street": "",
+    "city": "Rialto, California"
+  },
+  {
+    "name": "Riverside Palms #37",
+    "address": "RI Riverside Palms #37 1602 S Riverside Ave #37 Rialto, California",
+    "zone": "RI",
+    "street": "",
+    "city": "Rialto, California"
+  },
+  {
+    "name": "Alcantara Apartments #105",
+    "address": "",
+    "zone": "RI",
+    "street": "",
+    "city": "Rialto, California"
+  },
+  {
+    "name": "Rim Forest",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "Rim Forest, California"
+  },
+  {
+    "name": "SB-8 Rimforest House",
+    "address": "SB SB-8 Rimforest House 26600 Valley View Dr  Rimforest, California",
+    "zone": "SB",
+    "street": "",
+    "city": "Rimforest, California"
+  },
+  {
+    "name": "Brown Home",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "Running Springs, CA 92382, California"
+  },
+  {
+    "name": "PD-4 Salton City House",
+    "address": "PD PD-4 Salton City House 1347 Indian Ocean Ave Salton City, California",
+    "zone": "PD",
+    "street": "",
+    "city": "Salton City, California"
+  },
+  {
+    "name": "SB-11 Sunrise #53",
+    "address": "SB SB-11 Sunrise #53 1505 North Park Blvd, Bldg F San Bernanrdino, California",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernanrdino, California"
+  },
+  {
+    "name": "Lido Apartments  #814",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino , California"
+  },
+  {
+    "name": "SONORA APT #2",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "Mower House",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "Mountain Gate Apts  # 18",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "Golden Date Apts",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "Mountain Side Apartments",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "Royal York Estates",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino, California",
+    "lat": 34.094247,
+    "lng": -117.341943
+  },
+  {
+    "name": "Bordeaux Condominiums",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "SB-4 McMullen House",
+    "address": "SB SB-4 McMullen House 934 W 28th Street San Bernardino, California",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "Woodridge Villa Apts",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "Ralston Arms Apartments #22",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "Northbrook Apt. #306",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "Pinecrest Apartments #35",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "Ascot Park Apartments",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "Kendall Brook Apartments #303",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "Lido Apartments 2",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "Kendall Apartments",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "Ridgeline #J-247",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "Pinecrest #41",
+    "address": "SB Pinecrest #41 1683 Pumalo Street San Bernardino, California",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "Ewell House",
+    "address": "SB Ewell House 153 Palmyra Drive San Bernardino, California",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "SB-6 Pine Crest #40",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "Lido Apartments #5616",
+    "address": "SB Lido Apartments #5616 1265 Kendall Drive San Bernardino, California",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "Castlepark Apartment #3026",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "Ralston Arms Apartments #6",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "Mountainside Village #4",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "SB-2 Castlepark #2158",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "Lido Apartments #5111",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "Castle Park Apartments #2105",
+    "address": "SB Castle Park Apartments #2105 2065 W. College Ave #2105 San Bernardino, California",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "SB-10 El Royale Apartments",
+    "address": "SB SB-10 El Royale Apartments 2352 Leroy St # A17 San Bernardino, California",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "SB-10 El Royale # A17",
+    "address": "SB SB-10 El Royale # A17 2352 Leroy St # A17 San Bernardino, California",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "Sunrise Apartments #53",
+    "address": "SB Sunrise Apartments #53 1505 Northpark Blvd San Bernardino, California",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "SB-13 CastlePark #2063",
+    "address": "SB SB-13 CastlePark #2063 2065 W. College Ave Apt #2063 San Bernardino, California",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernardino, California"
+  },
+  {
+    "name": "Castlepark Apartment #1057",
+    "address": "",
+    "zone": "SB",
+    "street": "",
+    "city": "San Bernrdino , California"
+  },
+  {
+    "name": "Smoke Tree Villas #1",
+    "address": "",
+    "zone": "YV",
+    "street": "",
+    "city": "Twenty Nine Palms, California"
+  },
+  {
+    "name": "YV-1 Athol #B",
+    "address": "YV YV-1 Athol #B 6306 Athol Ave Twentynine Palms, California",
+    "zone": "YV",
+    "street": "",
+    "city": "Twentynine Palms, California"
+  },
+  {
+    "name": "YV-6 Quail Spring House",
+    "address": "YV YV-6 Quail Spring House 6600 Quail Spring Ave Twentynine Palms, California",
+    "zone": "YV",
+    "street": "",
+    "city": "Twentynine Palms, California"
+  },
+  {
+    "name": "Triad Realtors #1",
+    "address": "",
+    "zone": "YV",
+    "street": "",
+    "city": "Twentynine Palms, California"
+  },
+  {
+    "name": "YV-1 Desert Trail #1",
+    "address": "",
+    "zone": "YV",
+    "street": "",
+    "city": "TwentyNine Palms, California"
+  },
+  {
+    "name": "Andalusia Apt Homes 1003",
+    "address": "",
+    "zone": "VV",
+    "street": "",
+    "city": "Victorville , California"
+  },
+  {
+    "name": "VV-8  Andalusia #1003",
+    "address": "",
+    "zone": "VV",
+    "street": "",
+    "city": "Victorville , California"
+  },
+  {
+    "name": "Pavilion Apt. #55",
+    "address": "",
+    "zone": "VV",
+    "street": "",
+    "city": "Victorville Ca, California"
+  },
+  {
+    "name": "Park View Apartments",
+    "address": "",
+    "zone": "VV",
+    "street": "",
+    "city": "Victorville, California"
+  },
+  {
+    "name": "Zook",
+    "address": "",
+    "zone": "VV",
+    "street": "",
+    "city": "Victorville, California"
+  },
+  {
+    "name": "Peeler Home",
+    "address": "",
+    "zone": "VV",
+    "street": "",
+    "city": "Victorville, California"
+  },
+  {
+    "name": "Riverton Apt",
+    "address": "",
+    "zone": "VV",
+    "street": "",
+    "city": "Victorville, California"
+  },
+  {
+    "name": "Stoneridge House",
+    "address": "VV Stoneridge House 9737 SVL  Victorville, California",
+    "zone": "VV",
+    "street": "",
+    "city": "Victorville, California"
+  },
+  {
+    "name": "Sana Smith Home",
+    "address": "",
+    "zone": "VV",
+    "street": "",
+    "city": "Victorville, California"
+  },
+  {
+    "name": "Newporter Apartment #10",
+    "address": "",
+    "zone": "VV",
+    "street": "",
+    "city": "Victorville, California"
+  },
+  {
+    "name": "Summer Ridge Apt.# L-1",
+    "address": "",
+    "zone": "VV",
+    "street": "",
+    "city": "Victorville, California"
+  },
+  {
+    "name": "VV-1 Wimbledon #6",
+    "address": "",
+    "zone": "VV",
+    "street": "",
+    "city": "Victorville, California"
+  },
+  {
+    "name": "Riverton #00",
+    "address": "",
+    "zone": "VV",
+    "street": "",
+    "city": "Victorville, California"
+  },
+  {
+    "name": "Riverton #405",
+    "address": "",
+    "zone": "VV",
+    "street": "",
+    "city": "Victorville, California"
+  },
+  {
+    "name": "Pavilion Apt. #55",
+    "address": "VV Pavilion Apt. #55 14376 McArt Road Apt. 55 Victorville, California",
+    "zone": "VV",
+    "street": "",
+    "city": "Victorville, California"
+  },
+  {
+    "name": "Granada Hill",
+    "address": "VV Granada Hill 901 Granada Hill Victorville, California",
+    "zone": "VV",
+    "street": "",
+    "city": "Victorville, California"
+  },
+  {
+    "name": "Mountain Vista #H-106",
+    "address": "VV Mountain Vista #H-106 15450 Nisqualli Rd #H106 Victorville, California",
+    "zone": "VV",
+    "street": "",
+    "city": "Victorville, California"
+  },
+  {
+    "name": "HE-1 Burns Apartment",
+    "address": "HE HE-1 Burns Apartment 1240 Apple Ave Wrightwood, California",
+    "zone": "HE",
+    "street": "",
+    "city": "Wrightwood, California"
+  },
+  {
+    "name": "Alexander Anglum/Kristen Dack",
+    "address": "HE Alexander Anglum/Kristen Dack 5632 Oak Street Wrightwood, California",
+    "zone": "HE",
+    "street": "",
+    "city": "Wrightwood, California"
+  },
+  {
+    "name": "VV 1 Wrightwood",
+    "address": "HE VV 1 Wrightwood 5632 Oak Street Wrightwood, California",
+    "zone": "HE",
+    "street": "",
+    "city": "Wrightwood, California"
+  },
+  {
+    "name": "YP-14 Bungalows #714",
+    "address": "YP YP-14 Bungalows #714 33800 Chapman Heights Rd Yacaipa, California",
+    "zone": "YP",
+    "street": "",
+    "city": "Yacaipa, California"
+  },
+  {
+    "name": "Anderson House",
+    "address": "",
+    "zone": "YP",
+    "street": "",
+    "city": "Yucaipa, California"
+  },
+  {
+    "name": "Yucaipa Square Apts #C15",
+    "address": "",
+    "zone": "YP",
+    "street": "",
+    "city": "Yucaipa, California"
+  },
+  {
+    "name": "Yucaipa Square Apts #D28",
+    "address": "",
+    "zone": "YP",
+    "street": "",
+    "city": "Yucaipa, California"
+  },
+  {
+    "name": "Country Orchard Estates #39",
+    "address": "YP Country Orchard Estates #39 12175 13th Street Yucaipa, California",
+    "zone": "YP",
+    "street": "",
+    "city": "Yucaipa, California"
+  },
+  {
+    "name": "YP-5 Flag Hill #8",
+    "address": "",
+    "zone": "YP",
+    "street": "",
+    "city": "Yucaipa, California"
+  },
+  {
+    "name": "YP-3 Flag Hill #11",
+    "address": "",
+    "zone": "YP",
+    "street": "",
+    "city": "Yucaipa, California"
+  },
+  {
+    "name": "YP-4 Flag Hill #12",
+    "address": "",
+    "zone": "YP",
+    "street": "",
+    "city": "Yucaipa, California"
+  },
+  {
+    "name": "YP 10 Acacia House",
+    "address": "YP YP 10 Acacia House 35082 Acacia Ave  Yucaipa, California",
+    "zone": "YP",
+    "street": "",
+    "city": "Yucaipa, California"
+  },
+  {
+    "name": "YP-8 The Bungalows #416",
+    "address": "YP YP-8 The Bungalows #416 33800 Chapman Heights RD #416 Yucaipa, California",
+    "zone": "YP",
+    "street": "",
+    "city": "Yucaipa, California"
+  },
+  {
+    "name": "YP-11 The Bungalows Apt #213",
+    "address": "YP YP-11 The Bungalows Apt #213 33800 Chapman Heights RD Yucapia, California",
+    "zone": "YP",
+    "street": "",
+    "city": "Yucapia, California"
+  },
+  {
+    "name": "YP -10 Acacia House",
+    "address": "YP YP -10 Acacia House 35082 Acacia Ave Yucapia, California",
+    "zone": "YP",
+    "street": "",
+    "city": "Yucapia, California"
+  },
+  {
+    "name": "Larry Burge/Barberry",
+    "address": "YV Larry Burge/Barberry 7144 Barberry A/1 Yucca Valley , California",
+    "zone": "YV",
+    "street": "",
+    "city": "Yucca Valley , California"
+  },
+  {
+    "name": "Larry Burge-Sage B",
+    "address": "YV Larry Burge-Sage B 7165 Sage Avenue Yucca Valley, California",
+    "zone": "YV",
+    "street": "",
+    "city": "Yucca Valley, California"
+  },
+  {
+    "name": "Larry Burge Apts # 1 or A",
+    "address": "",
+    "zone": "YV",
+    "street": "",
+    "city": "Yucca Valley, California"
+  },
+  {
+    "name": "CLOSED Murray Lane #B",
+    "address": "",
+    "zone": "YV",
+    "street": "",
+    "city": "Yucca Valley, California"
+  },
+  {
+    "name": "Murry Lane #B",
+    "address": "YV Murry Lane #B 7230 Murray Lane Yucca Valley, California",
+    "zone": "YV",
+    "street": "",
+    "city": "Yucca Valley, California"
+  },
+  {
+    "name": "Larry Burge",
+    "address": "YV Larry Burge 7165 Sage Ave Yucca Valley, California",
+    "zone": "YV",
+    "street": "",
+    "city": "Yucca Valley, California"
+  },
+  {
+    "name": "Marilyn Hirsty- Palo Alto Hous",
+    "address": "YV Marilyn Hirsty- Palo Alto Hous 7262 Palo Alto Yucca Valley, California",
+    "zone": "YV",
+    "street": "",
+    "city": "Yucca Valley, California"
+  },
+  {
+    "name": "YV-2 Balsa House",
+    "address": "YV YV-2 Balsa House 4875 Balsa Avenue Yucca Valley, California",
+    "zone": "YV",
+    "street": "",
+    "city": "Yucca Valley, California"
+  }
+]
