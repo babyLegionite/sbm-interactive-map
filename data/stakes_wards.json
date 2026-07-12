@@ -1,0 +1,158 @@
+{
+  "mission": "California Victorville Mission",
+  "mission_id": "2317532",
+  "last_updated": "2026-07-12",
+  "source": "Church Meetinghouse Locator + Wikipedia",
+  "stakes": {
+    "Victorville California Stake": {
+      "address": "12860 Amethyst Road, Victorville, CA 92392",
+      "lat": 34.484406,
+      "lng": -117.364991,
+      "phone": "760-241-5060",
+      "org_date": "1983-01-30",
+      "wards": [
+        {"name": "Barstow Ward", "type": "WARD", "language": "English"},
+        {"name": "Brentwood Ward", "type": "WARD", "language": "English"},
+        {"name": "Fort Irwin Branch", "type": "BRANCH", "language": "English"},
+        {"name": "George Branch", "type": "BRANCH", "language": "English"},
+        {"name": "Mesa Linda Ward", "type": "WARD", "language": "English"},
+        {"name": "Jeraldo Ward", "type": "WARD", "language": "Tongan"},
+        {"name": "La Paz Ward", "type": "WARD", "language": "Spanish"},
+        {"name": "Mojave Ward", "type": "WARD", "language": "Samoan"}
+      ],
+      "status": "CONFIRMED"
+    },
+    "Apple Valley California Stake": {
+      "org_date": "2006-09-10",
+      "wards": [
+        {"name": "Apple Valley 1st Ward", "type": "WARD", "language": "English"},
+        {"name": "Apple Valley 2nd Ward", "type": "WARD", "language": "English"},
+        {"name": "Apple Valley 3rd Ward", "type": "WARD", "language": "English"},
+        {"name": "Apple Valley 4th Ward", "type": "WARD", "language": "English"},
+        {"name": "Apple Valley 5th Ward", "type": "WARD", "language": "English"},
+        {"name": "Apple Valley 6th Ward", "type": "WARD", "language": "English"},
+        {"name": "Apple Valley 7th Ward", "type": "WARD", "language": "English"},
+        {"name": "Apple Valley Spanish Branch", "type": "BRANCH", "language": "Spanish"}
+      ],
+      "status": "ESTIMATED"
+    },
+    "Hesperia California Stake": {
+      "org_date": "1987-02-22",
+      "wards": [
+        {"name": "Hesperia 1st Ward", "type": "WARD", "language": "English"},
+        {"name": "Hesperia 2nd Ward", "type": "WARD", "language": "English"},
+        {"name": "Hesperia 3rd Ward", "type": "WARD", "language": "English"},
+        {"name": "Hesperia 4th Ward", "type": "WARD", "language": "English"},
+        {"name": "Hesperia 5th Ward", "type": "WARD", "language": "English"},
+        {"name": "Hesperia 6th Ward", "type": "WARD", "language": "English"},
+        {"name": "Hesperia 7th Ward", "type": "WARD", "language": "English"},
+        {"name": "Oak Hills Ward", "type": "WARD", "language": "English"},
+        {"name": "Hesperia Spanish Branch", "type": "BRANCH", "language": "Spanish"}
+      ],
+      "status": "ESTIMATED"
+    },
+    "Fontana California Stake": {
+      "org_date": "1986-06-22",
+      "wards": [
+        {"name": "Fontana 1st Ward", "type": "WARD", "language": "English"},
+        {"name": "Fontana 2nd Ward", "type": "WARD", "language": "English"},
+        {"name": "Fontana 3rd Ward", "type": "WARD", "language": "English"},
+        {"name": "Fontana 4th Ward", "type": "WARD", "language": "English"},
+        {"name": "Fontana 5th Ward", "type": "WARD", "language": "English"},
+        {"name": "Fontana 6th Ward", "type": "WARD", "language": "English"},
+        {"name": "Fontana 7th Ward", "type": "WARD", "language": "English"},
+        {"name": "Fontana Spanish Ward", "type": "WARD", "language": "Spanish"}
+      ],
+      "status": "ESTIMATED"
+    },
+    "Rialto California Stake": {
+      "org_date": "1966-03-20",
+      "wards": [
+        {"name": "Rialto 1st Ward", "type": "WARD", "language": "English"},
+        {"name": "Rialto 2nd Ward", "type": "WARD", "language": "English"},
+        {"name": "Rialto 3rd Ward", "type": "WARD", "language": "English"},
+        {"name": "Rialto 4th Ward", "type": "WARD", "language": "English"},
+        {"name": "Rialto 5th Ward", "type": "WARD", "language": "English"},
+        {"name": "Rialto 6th Ward", "type": "WARD", "language": "English"},
+        {"name": "Rialto 7th Ward", "type": "WARD", "language": "English"},
+        {"name": "Rialto Spanish Branch", "type": "BRANCH", "language": "Spanish"}
+      ],
+      "status": "ESTIMATED"
+    },
+    "San Bernardino California Stake": {
+      "org_date": "1935-02-03",
+      "wards": [
+        {"name": "San Bernardino 1st Ward", "type": "WARD", "language": "English"},
+        {"name": "San Bernardino 2nd Ward", "type": "WARD", "language": "English"},
+        {"name": "San Bernardino 3rd Ward", "type": "WARD", "language": "English"},
+        {"name": "San Bernardino 4th Ward", "type": "WARD", "language": "English"},
+        {"name": "San Bernardino 5th Ward", "type": "WARD", "language": "English"},
+        {"name": "San Bernardino 6th Ward", "type": "WARD", "language": "English"},
+        {"name": "San Bernardino 7th Ward", "type": "WARD", "language": "English"},
+        {"name": "Highland Ward", "type": "WARD", "language": "English"},
+        {"name": "Del Rosa Ward", "type": "WARD", "language": "English"},
+        {"name": "San Bernardino Spanish Ward", "type": "WARD", "language": "Spanish"}
+      ],
+      "status": "ESTIMATED"
+    },
+    "Redlands California Stake": {
+      "org_date": "1978-06-04",
+      "wards": [
+        {"name": "Redlands 1st Ward", "type": "WARD", "language": "English"},
+        {"name": "Redlands 2nd Ward", "type": "WARD", "language": "English"},
+        {"name": "Redlands 3rd Ward", "type": "WARD", "language": "English"},
+        {"name": "Redlands 4th Ward", "type": "WARD", "language": "English"},
+        {"name": "Redlands 5th Ward", "type": "WARD", "language": "English"},
+        {"name": "Redlands 6th Ward", "type": "WARD", "language": "English"},
+        {"name": "Redlands 7th Ward", "type": "WARD", "language": "English"},
+        {"name": "Loma Linda Ward", "type": "WARD", "language": "English"}
+      ],
+      "status": "ESTIMATED"
+    },
+    "Yucaipa California Stake": {
+      "org_date": "2004-04-25",
+      "wards": [
+        {"name": "Yucaipa 1st Ward", "type": "WARD", "language": "English"},
+        {"name": "Yucaipa 2nd Ward", "type": "WARD", "language": "English"},
+        {"name": "Yucaipa 3rd Ward", "type": "WARD", "language": "English"},
+        {"name": "Yucaipa 4th Ward", "type": "WARD", "language": "English"},
+        {"name": "Yucaipa 5th Ward", "type": "WARD", "language": "English"},
+        {"name": "Yucaipa 6th Ward", "type": "WARD", "language": "English"},
+        {"name": "Calimesa Ward", "type": "WARD", "language": "English"}
+      ],
+      "status": "ESTIMATED"
+    },
+    "Yucca Valley California Stake": {
+      "org_date": "1994-01-09",
+      "wards": [
+        {"name": "Yucca Valley 1st Ward", "type": "WARD", "language": "English"},
+        {"name": "Yucca Valley 2nd Ward", "type": "WARD", "language": "English"},
+        {"name": "Yucca Valley 3rd Ward", "type": "WARD", "language": "English"},
+        {"name": "Yucca Valley 4th Ward", "type": "WARD", "language": "English"},
+        {"name": "Yucca Valley 5th Ward", "type": "WARD", "language": "English"},
+        {"name": "Twentynine Palms Ward", "type": "WARD", "language": "English"},
+        {"name": "Joshua Tree Ward", "type": "WARD", "language": "English"}
+      ],
+      "status": "ESTIMATED"
+    },
+    "Palm Desert California Stake": {
+      "org_date": "1967-08-27",
+      "wards": [
+        {"name": "Palm Desert 1st Ward", "type": "WARD", "language": "English"},
+        {"name": "Palm Desert 2nd Ward", "type": "WARD", "language": "English"},
+        {"name": "Palm Desert 3rd Ward", "type": "WARD", "language": "English"},
+        {"name": "Palm Desert 4th Ward", "type": "WARD", "language": "English"},
+        {"name": "Palm Desert 5th Ward", "type": "WARD", "language": "English"},
+        {"name": "Indian Wells Ward", "type": "WARD", "language": "English"},
+        {"name": "La Quinta Ward", "type": "WARD", "language": "English"},
+        {"name": "Palm Desert Spanish Branch", "type": "BRANCH", "language": "Spanish"}
+      ],
+      "status": "ESTIMATED"
+    }
+  },
+  "notes": {
+    "confirmed": "Victorville California Stake wards confirmed via meetinghouse locator on 2026-07-12",
+    "estimated": "All other stakes have ESTIMATED ward names based on common LDS naming patterns. Need verification from mission office or CDOL access.",
+    "boundaries": "Stake and ward boundary GeoJSON data not yet available. Will need CDOL access or mission president contact for boundary files."
+  }
+}
