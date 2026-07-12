@@ -1,31 +1,55 @@
 /**
- * SBM Interactive Map — Southern California Locations
- * Built with Leaflet.js + MarkerCluster
+ * California Victorville Mission Map
+ * Light theme + custom building icons + boundary support
  */
 
 // --- Configuration ---
 const ZONE_COLORS = {
-    'Apple Valley':      '#4a9eff',
-    'Victorville':       '#e0556a',
-    'San Bernardino':    '#50c878',
-    'Fontana':           '#ffa500',
-    'Hesperia':          '#9b59b6',
-    'Redlands':          '#1abc9c',
-    'Rialto':            '#e67e22',
-    'Yucaipa':           '#3498db',
-    'Yucca Valley':      '#2ecc71',
-    'Palm Desert':       '#f39c12',
-    'Senior Missionaries':'#e74c3c',
-    'Mission Home':      '#00bcd4',
-    // Shorthand codes
-    'AV': '#4a9eff', 'VV': '#e0556a', 'SB': '#50c878',
-    'FN': '#ffa500', 'HE': '#9b59b6', 'RD': '#1abc9c',
-    'RI': '#e67e22', 'YP': '#3498db', 'YV': '#2ecc71',
-    'PD': '#f39c12',
+    'Apple Valley':      '#2c5282',
+    'Victorville':       '#c53030',
+    'San Bernardino':    '#2f855a',
+    'Fontana':           '#c05621',
+    'Hesperia':          '#6b46c1',
+    'Redlands':          '#0987a0',
+    'Rialto':            '#b7791f',
+    'Yucaipa':           '#2b6cb0',
+    'Yucca Valley':      '#276749',
+    'Palm Desert':       '#c05621',
+    'Senior Missionaries':'#9b2c2c',
+    'Mission Home':      '#285e61',
+    'AV': '#2c5282', 'VV': '#c53030', 'SB': '#2f855a',
+    'FN': '#c05621', 'HE': '#6b46c1', 'RD': '#0987a0',
+    'RI': '#b7791f', 'YP': '#2b6cb0', 'YV': '#276749', 'PD': '#c05621',
 };
 
-const MAP_CENTER = [34.25, -117.25]; // Apple Valley / Victorville area
+const MAP_CENTER = [34.25, -117.25];
 const MAP_ZOOM = 9;
+
+// --- Custom SVG Icons ---
+const ICONS = {
+    chapel: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+        <rect x="4" y="8" width="16" height="14" rx="1" fill="COLOR" stroke="#fff" stroke-width="1.5"/>
+        <polygon points="12,2 4,10 20,10" fill="COLOR" stroke="#fff" stroke-width="1.5" stroke-linejoin="round"/>
+        <line x1="12" y1="14" x2="12" y2="20" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="12" cy="12" r="1.5" fill="#fff"/>
+    </svg>`,
+    stake_center: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" width="28" height="28">
+        <rect x="4" y="8" width="20" height="17" rx="1.5" fill="COLOR" stroke="#fff" stroke-width="1.5"/>
+        <polygon points="14,1 3,10 25,10" fill="COLOR" stroke="#fff" stroke-width="1.5" stroke-linejoin="round"/>
+        <polygon points="14,4 17,8 11,8" fill="#FFD700" stroke="#fff" stroke-width="1"/>
+        <line x1="14" y1="13" x2="14" y2="22" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+        <circle cx="14" cy="11" r="2" fill="#fff"/>
+    </svg>`,
+    housing: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20">
+        <rect x="3" y="8" width="14" height="10" rx="1" fill="COLOR" stroke="#fff" stroke-width="1.5"/>
+        <polygon points="10,1 2,9 18,9" fill="COLOR" stroke="#fff" stroke-width="1.5" stroke-linejoin="round"/>
+        <rect x="7" y="12" width="6" height="6" rx="0.5" fill="#fff" opacity="0.5"/>
+    </svg>`,
+};
+
+function svgIcon(svg, color) {
+    return 'data:image/svg+xml,' + encodeURIComponent(svg.replace('COLOR', color));
+}
 
 // --- State ---
 let locations = [];
@@ -33,12 +57,13 @@ let markers = [];
 let markerCluster;
 let activeZones = new Set();
 let map;
+let boundaries = {}; // GeoJSON layers by stake name
 
 // --- Init ---
 document.addEventListener('DOMContentLoaded', async () => {
     map = initMap();
     markerCluster = L.markerClusterGroup({
-        maxClusterRadius: 50,
+        maxClusterRadius: 45,
         spiderfyOnMaxZoom: true,
         showCoverageOnHover: false,
         zoomToBoundsOnClick: true,
@@ -52,21 +77,19 @@ document.addEventListener('DOMContentLoaded', async () => {
     setupSearch();
     setupButtons();
     renderAllMarkers();
+    loadBoundaries(); // Try loading boundaries if available
 });
 
 function initMap() {
     const m = L.map('map', {
-        center: MAP_CENTER,
-        zoom: MAP_ZOOM,
-        zoomControl: true,
-        preferCanvas: true, // Better performance with many markers
+        center: MAP_CENTER, zoom: MAP_ZOOM,
+        zoomControl: true, preferCanvas: true,
     });
 
-    // Dark-themed tiles
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    // Light theme tiles (CartoDB Positron)
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
-        subdomains: 'abcd',
-        maxZoom: 19,
+        subdomains: 'abcd', maxZoom: 19,
     }).addTo(m);
 
     return m;
@@ -88,38 +111,62 @@ async function loadData() {
             document.getElementById('location-count').textContent = `${locations.length} Locations (some unplaced)`;
         } catch (err2) {
             console.error('Failed to load any data', err2);
-            document.getElementById('location-count').textContent = 'Error loading data';
         }
     }
+}
+
+// --- Boundary Loading ---
+async function loadBoundaries() {
+    // Try to load stake and ward boundary GeoJSON if available
+    try {
+        const resp = await fetch('data/boundaries.json');
+        if (resp.ok) {
+            const data = await resp.json();
+            renderBoundaries(data);
+        }
+    } catch (e) {
+        // Boundaries not yet available — that's OK
+        console.log('No boundary data yet — will render when available');
+    }
+}
+
+function renderBoundaries(data) {
+    // Clear existing boundary layers
+    Object.values(boundaries).forEach(layer => map.removeLayer(layer));
+    boundaries = {};
+
+    Object.entries(data).forEach(([stakeName, geoJson]) => {
+        const layer = L.geoJSON(geoJson, {
+            style: {
+                color: '#2c5282', weight: 2, opacity: 0.7,
+                fillColor: '#2c5282', fillOpacity: 0.05,
+            },
+        }).addTo(map);
+        boundaries[stakeName] = layer;
+    });
 }
 
 // --- Zone Helpers ---
 function normalizeZone(zone) {
     if (!zone) return 'Unknown';
-    // Map shorthand codes to full names
     const codeMap = {
         'AV': 'Apple Valley', 'VV': 'Victorville', 'SB': 'San Bernardino',
         'FN': 'Fontana', 'HE': 'Hesperia', 'RD': 'Redlands',
-        'RI': 'Rialto', 'YP': 'Yucaipa', 'YV': 'Yucca Valley',
-        'PD': 'Palm Desert',
+        'RI': 'Rialto', 'YP': 'Yucaipa', 'YV': 'Yucca Valley', 'PD': 'Palm Desert',
     };
     const upper = zone.trim().toUpperCase();
     if (codeMap[upper]) return codeMap[upper];
-    // Title case
     return zone.replace(/\w\S*/g, txt => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase());
 }
 
 function getZoneColor(zone) {
     const normalized = normalizeZone(zone);
-    // Try full name, then shorthand
     for (const [key, color] of Object.entries(ZONE_COLORS)) {
         if (normalizeZone(key) === normalized) return color;
     }
-    // Generate deterministic color from zone name
     let hash = 0;
     for (let i = 0; i < zone.length; i++) hash = zone.charCodeAt(i) + ((hash << 5) - hash);
-    const h = Math.abs(hash) % 360;
-    return `hsl(${h}, 55%, 55%)`;
+    return `hsl(${Math.abs(hash) % 360}, 45%, 40%)`;
 }
 
 // --- Zone Filters ---
@@ -129,97 +176,80 @@ function buildZoneFilters() {
         const zone = normalizeZone(loc.zone);
         zoneCounts[zone] = (zoneCounts[zone] || 0) + 1;
     });
-
-    // Sort by count descending
     const sorted = Object.entries(zoneCounts).sort((a, b) => b[1] - a[1]);
-
     const zoneList = document.getElementById('zone-list');
     zoneList.innerHTML = '';
-
     sorted.forEach(([zone, count]) => {
-        activeZones.add(zone); // All active by default
-
+        activeZones.add(zone);
         const chip = document.createElement('span');
         chip.className = 'zone-chip active';
         chip.dataset.zone = zone;
-        chip.innerHTML = `
-            <span class="zone-dot" style="background:${getZoneColor(zone)}"></span>
-            ${zone} (${count})
-        `;
+        chip.innerHTML = `<span class="zone-dot" style="background:${getZoneColor(zone)}"></span>${zone} (${count})`;
         chip.addEventListener('click', () => toggleZone(zone, chip));
         zoneList.appendChild(chip);
     });
-
     document.getElementById('zone-count').textContent = `${sorted.length} zones`;
 }
 
 function toggleZone(zone, chip) {
-    if (activeZones.has(zone)) {
-        activeZones.delete(zone);
-        chip.classList.remove('active');
-        chip.classList.add('inactive');
-    } else {
-        activeZones.add(zone);
-        chip.classList.add('active');
-        chip.classList.remove('inactive');
-    }
+    if (activeZones.has(zone)) { activeZones.delete(zone); chip.classList.remove('active'); chip.classList.add('inactive'); }
+    else { activeZones.add(zone); chip.classList.add('active'); chip.classList.remove('inactive'); }
     renderAllMarkers();
+}
+
+// --- Marker Type Detection ---
+function getMarkerType(loc) {
+    const name = (loc.name || '').toLowerCase();
+    const street = (loc.street || '').toLowerCase();
+    // Detect stake centers
+    if (name.includes('stake') || name.includes('mission home') || name.includes('mission office')) return 'stake_center';
+    // Detect chapels/ward buildings
+    if (name.includes('ward') || street.includes('chapel') || name.match(/^(sb|vv|av|fn|he|rd|ri|yp|yv|pd)-\d+\s+.*ward/i)) return 'chapel';
+    // Everything else is housing
+    return 'housing';
 }
 
 // --- Markers ---
 function createMarkerIcon(loc) {
     const zone = normalizeZone(loc.zone);
     const color = getZoneColor(zone);
-    const size = loc.lat ? 12 : 0; // Skip ungeocoded
+    const type = getMarkerType(loc);
+    const size = loc.lat ? 1 : 0;
 
-    return L.divIcon({
-        className: 'custom-marker',
-        html: `<div style="
-            width:${size}px;height:${size}px;
-            background:${color};
-            border:2px solid #fff;
-            border-radius:50%;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.4);
-        "></div>`,
-        iconSize: [size + 4, size + 4],
-        iconAnchor: [(size + 4) / 2, (size + 4) / 2],
+    const iconSvg = ICONS[type] || ICONS.housing;
+    const iconUrl = svgIcon(iconSvg, color);
+
+    const sizes = { chapel: [22, 22], stake_center: [28, 28], housing: [18, 18] };
+    const [w, h] = sizes[type] || [18, 18];
+
+    return L.icon({
+        iconUrl: iconUrl,
+        iconSize: [w, h],
+        iconAnchor: [w/2, h],
+        popupAnchor: [0, -h],
     });
 }
 
 function createPopupContent(loc) {
     const zone = normalizeZone(loc.zone);
     const color = getZoneColor(zone);
+    const type = getMarkerType(loc);
+    const typeLabel = type === 'stake_center' ? 'Stake Center' : type === 'chapel' ? 'Ward Building' : 'Housing';
 
     let html = `<div style="font-family:-apple-system,BlinkMacSystemFont,sans-serif;min-width:200px;">`;
-    html += `<strong style="font-size:15px;">${escapeHtml(loc.name)}</strong>`;
-
-    if (zone !== 'Unknown') {
-        html += `<span style="display:inline-block;margin-left:8px;padding:1px 8px;border-radius:10px;
-            font-size:11px;font-weight:600;color:#fff;background:${color};">${zone}</span>`;
-    }
-
-    html += `<hr style="border:none;border-top:1px solid #3a3d46;margin:8px 0;">`;
-
-    if (loc.street) {
-        html += `<div style="font-size:13px;margin-bottom:3px;">📍 ${escapeHtml(loc.street)}</div>`;
-    }
-    if (loc.city) {
-        html += `<div style="font-size:12px;color:#8b8fa3;">${escapeHtml(loc.city)}</div>`;
-    }
-
+    html += `<strong style="font-size:14px;">${escapeHtml(loc.name)}</strong>`;
+    html += `<span style="display:inline-block;margin-left:6px;padding:1px 6px;border-radius:8px;
+        font-size:10px;font-weight:600;color:#fff;background:${color};">${zone}</span>`;
+    html += `<span style="display:inline-block;margin-left:4px;padding:1px 6px;border-radius:8px;
+        font-size:9px;font-weight:500;color:${color};background:${color}18;border:1px solid ${color}40;">${typeLabel}</span>`;
+    html += `<hr style="border:none;border-top:1px solid #e8e4dc;margin:6px 0;">`;
+    if (loc.street) html += `<div style="font-size:12px;margin-bottom:2px;">📍 ${escapeHtml(loc.street)}</div>`;
+    if (loc.city) html += `<div style="font-size:11px;color:#736b5c;">${escapeHtml(loc.city)}</div>`;
     if (loc.lat && loc.lng) {
-        html += `<div style="font-size:10px;color:#5a5e6e;margin-top:4px;">
-            ${loc.lat.toFixed(4)}, ${loc.lng.toFixed(4)}
-        </div>`;
-        html += `<a href="https://www.google.com/maps?q=${loc.lat},${loc.lng}"
-            target="_blank" style="display:inline-block;margin-top:6px;font-size:11px;
-            color:#4a9eff;text-decoration:none;">
-            <i class="fas fa-external-link-alt"></i> Open in Google Maps
-        </a>`;
-    } else {
-        html += `<div style="font-size:11px;color:#e0556a;margin-top:4px;">⚠ No coordinates</div>`;
+        html += `<a href="https://www.google.com/maps?q=${loc.lat},${loc.lng}" target="_blank"
+            style="display:inline-block;margin-top:4px;font-size:11px;color:#2c5282;text-decoration:none;">
+            ↗ Open in Google Maps</a>`;
     }
-
     html += `</div>`;
     return html;
 }
@@ -227,78 +257,44 @@ function createPopupContent(loc) {
 function renderAllMarkers() {
     markerCluster.clearLayers();
     markers = [];
-
     locations.forEach(loc => {
         const zone = normalizeZone(loc.zone);
         if (!activeZones.has(zone)) return;
         if (!loc.lat || !loc.lng) return;
-
-        const marker = L.marker([loc.lat, loc.lng], {
-            icon: createMarkerIcon(loc),
-        });
-
-        marker.bindPopup(createPopupContent(loc), {
-            maxWidth: 300,
-            className: 'sbm-popup',
-        });
-
+        const marker = L.marker([loc.lat, loc.lng], { icon: createMarkerIcon(loc) });
+        marker.bindPopup(createPopupContent(loc), { maxWidth: 300, className: 'sbm-popup' });
         marker._sbmData = loc;
         markers.push(marker);
     });
-
     markerCluster.addLayers(markers);
-
-    // Update stats
-    document.getElementById('location-count').textContent =
-        `${markers.length} visible / ${locations.length} total`;
+    document.getElementById('location-count').textContent = `${markers.length} visible / ${locations.length} total`;
 }
 
 function escapeHtml(str) {
-    const div = document.createElement('div');
-    div.textContent = str;
-    return div.innerHTML;
+    const div = document.createElement('div'); div.textContent = str; return div.innerHTML;
 }
 
 // --- Search ---
 function setupSearch() {
     const input = document.getElementById('search-input');
     const btn = document.getElementById('btn-search');
-
     const doSearch = () => {
         const query = input.value.trim().toLowerCase();
-        if (!query) {
-            document.getElementById('results-list').innerHTML = '';
-            document.getElementById('results-count').textContent = '';
-            return;
-        }
-
+        if (!query) { document.getElementById('results-list').innerHTML = ''; document.getElementById('results-count').textContent = ''; return; }
         const results = locations.filter(loc => {
-            const searchStr = `${loc.name} ${loc.street} ${loc.city} ${loc.zone} ${loc.address}`.toLowerCase();
-            return searchStr.includes(query);
+            return `${loc.name} ${loc.street} ${loc.city} ${loc.zone} ${loc.address}`.toLowerCase().includes(query);
         });
-
         const resultsList = document.getElementById('results-list');
         document.getElementById('results-count').textContent = `${results.length} found`;
-
         resultsList.innerHTML = results.slice(0, 50).map(loc => {
-            const zone = normalizeZone(loc.zone);
-            const color = getZoneColor(zone);
-            return `
-                <div class="result-item" onclick="focusLocation(${loc.lat}, ${loc.lng}, '${escapeHtml(loc.name)}')">
-                    <div class="result-name">${escapeHtml(loc.name)}</div>
-                    <div class="result-address">${escapeHtml(loc.street || '')} — ${escapeHtml(loc.city || '')}</div>
-                    <span class="result-zone" style="background:${color};color:#fff;">${zone}</span>
-                </div>
-            `;
-        }).join('');
-
-        if (results.length > 50) {
-            resultsList.innerHTML += `<div style="padding:8px;font-size:12px;color:var(--text-secondary);">
-                Showing 50 of ${results.length} — refine your search
+            const zone = normalizeZone(loc.zone), color = getZoneColor(zone);
+            return `<div class="result-item" onclick="focusLocation(${loc.lat}, ${loc.lng}, '${escapeHtml(loc.name)}')">
+                <div class="result-name">${escapeHtml(loc.name)}</div>
+                <div class="result-address">${escapeHtml(loc.street || '')} — ${escapeHtml(loc.city || '')}</div>
+                <span class="result-zone" style="background:${color};color:#fff;">${zone}</span>
             </div>`;
-        }
+        }).join('');
     };
-
     input.addEventListener('input', doSearch);
     input.addEventListener('keydown', (e) => { if (e.key === 'Enter') doSearch(); });
     btn.addEventListener('click', doSearch);
@@ -307,12 +303,9 @@ function setupSearch() {
 function focusLocation(lat, lng, name) {
     if (!lat || !lng) return;
     map.setView([lat, lng], 16);
-    // Find and open popup
     markers.forEach(m => {
         const ll = m.getLatLng();
-        if (Math.abs(ll.lat - lat) < 0.0001 && Math.abs(ll.lng - lng) < 0.0001) {
-            m.openPopup();
-        }
+        if (Math.abs(ll.lat - lat) < 0.0001 && Math.abs(ll.lng - lng) < 0.0001) m.openPopup();
     });
 }
 
@@ -320,59 +313,38 @@ function focusLocation(lat, lng, name) {
 function setupButtons() {
     document.getElementById('btn-fit').addEventListener('click', () => {
         if (markers.length === 0) return;
-        const group = L.featureGroup(markers);
-        map.fitBounds(group.getBounds().pad(0.05));
+        map.fitBounds(L.featureGroup(markers).getBounds().pad(0.05));
     });
-
     document.getElementById('btn-print').addEventListener('click', () => {
-        // Build print legend
         const legendContent = document.getElementById('print-legend-content');
         const zones = [...activeZones].sort();
         legendContent.innerHTML = zones.map(zone => `
-            <div class="legend-item">
-                <div class="legend-dot" style="background:${getZoneColor(zone)}"></div>
-                ${zone}
-            </div>
-        `).join('');
-
-        // Fit all visible markers for print
-        if (markers.length > 0) {
-            const group = L.featureGroup(markers);
-            map.fitBounds(group.getBounds().pad(0.05));
-        }
-
+            <div style="display:flex;align-items:center;gap:4px;font-size:9px;">
+                <div style="width:8px;height:8px;border-radius:50%;background:${getZoneColor(zone)};border:1px solid #999;"></div>${zone}
+            </div>`).join('');
+        if (markers.length > 0) map.fitBounds(L.featureGroup(markers).getBounds().pad(0.05));
         setTimeout(() => window.print(), 300);
     });
 }
 
 // --- Stats ---
 function buildStats() {
-    const zoneCounts = {};
-    let withCoords = 0;
-    let withoutCoords = 0;
-
+    const zoneCounts = {}; let withCoords = 0, withoutCoords = 0;
     locations.forEach(loc => {
         const zone = normalizeZone(loc.zone);
         zoneCounts[zone] = (zoneCounts[zone] || 0) + 1;
-        if (loc.lat) withCoords++;
-        else withoutCoords++;
+        if (loc.lat) withCoords++; else withoutCoords++;
     });
-
     const sorted = Object.entries(zoneCounts).sort((a, b) => b[1] - a[1]);
-    const topZones = sorted.slice(0, 5);
-
     document.getElementById('stats-content').innerHTML = `
-        <div><strong>${locations.length}</strong> total locations</div>
+        <div><strong>${locations.length}</strong> total</div>
         <div><strong>${withCoords}</strong> mapped</div>
         ${withoutCoords > 0 ? `<div><strong>${withoutCoords}</strong> unplaced</div>` : ''}
-        <div><strong>${sorted.length}</strong> zones</div>
-        <hr style="border:none;border-top:1px solid var(--border);margin:6px 0;">
-        <div style="font-size:11px;color:var(--text-secondary);">Top Zones:</div>
-        ${topZones.map(([z, c]) => `
+        <hr>
+        ${sorted.slice(0, 5).map(([z, c]) => `
             <div style="display:flex;align-items:center;gap:6px;margin:2px 0;">
-                <span style="width:8px;height:8px;border-radius:50%;background:${getZoneColor(z)};flex-shrink:0;"></span>
-                <span>${z}: <strong>${c}</strong></span>
-            </div>
-        `).join('')}
+                <span style="width:7px;height:7px;border-radius:50%;background:${getZoneColor(z)};"></span>
+                ${z}: <strong>${c}</strong>
+            </div>`).join('')}
     `;
 }
